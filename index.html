@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leenzners | Future-Proof Your Skills</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Leenzners<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#enroll">Enroll</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Master Skills that <span class="highlight">Matter.</span></h1>
+                <p>High-impact, project-based learning for the next generation of digital creators and tech leaders.</p>
+                <div class="hero-btns">
+                    <button class="btn-primary" onclick="scrollToSection('courses')">View Courses</button>
+                    <button class="btn-secondary">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="metaphor-box">
+                    <div class="floating-card">🚀 Build Projects</div>
+                    <div class="floating-card">🎓 Get Certified</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="courses" class="courses-section">
+        <div class="section-header">
+            <h2>Our Core Pillars</h2>
+            <p>Four specialized tracks designed for the modern economy.</p>
+        </div>
+        <div class="course-grid" id="courseGrid">
+            <!-- Injected by JS -->
+        </div>
+    </main>
+
+    <section id="enroll" class="cta-section">
+        <div class="cta-card">
+            <h3>Ready to start?</h3>
+            <p>Join 5,000+ students already learning on Leenzners.</p>
+            <form id="enrollForm" class="enroll-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Join Now</button>
+            </form>
+            <div id="formFeedback"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <div class="logo">Leenzners<span>.</span></div>
+                <p>The premier platform for technical excellence.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Platform</h4>
+                <ul>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Mentorship</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#">TW</a> <a href="#">LI</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Leenzners Academy.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
